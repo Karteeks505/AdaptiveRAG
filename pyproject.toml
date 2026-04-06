@@ -24,5 +24,8 @@ sentence_transformers = ["sentence-transformers>=2.2.0"]
 [project.scripts]
 adaptive-rag-run = "adaptive_rag.run_experiment:main"
 
+[tool.setuptools]
+package-dir = {"" = "src"}
+
 [tool.setuptools.packages.find]
 where = ["src"]

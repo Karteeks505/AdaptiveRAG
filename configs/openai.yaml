@@ -1,0 +1,36 @@
+# OpenAI-backed profile (optional; set OPENAI_API_KEY). ~$10 budget: run with --max-queries first.
+embedding:
+  backend: openai
+  model_id: text-embedding-3-large
+  dimensions: 3072
+
+llm:
+  backend: openai
+  model_id: gpt-4o-mini
+  temperature: 0.1
+
+chunking:
+  max_words: 50
+  overlap_words: 10
+
+retrieval:
+  top_k: 5
+  hybrid_rrf_k: 60
+  dense_weight: 0.5
+  bm25_weight: 0.5
+
+drift:
+  cosine_threshold: 0.92
+  use_deepdiff: false
+
+seeds: [42, 43, 44, 45, 46]
+
+bootstrap:
+  n_resamples: 10000
+  random_seed: 42
+
+paths:
+  data_dir: data
+  corpus_v0_glob: corpus/v0/*.md
+  corpus_v1_glob: corpus/v1/*.md
+  queries: queries.jsonl

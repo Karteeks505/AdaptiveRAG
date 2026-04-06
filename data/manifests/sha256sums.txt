@@ -1,0 +1,6 @@
+5ec5cebba67d5cd21c4418b0866d12fcbdcce3fa665fb1bbf46e31754e2d599e  data/corpus/v0/policy_a.md
+9c56b37946c7d744bbb67e33e67661c415b1c6a05dc204f4e8dc9149ce18da83  data/corpus/v0/policy_b.md
+05a3d43a40482c97e9c76e10b5339838f0c573d00c6a6e3397a7fdb5a0b4151f  data/corpus/v0/policy_c.md
+3ff0d286c8936ffcfcfb1c7bd733c0576e7864e3b76311647c6b04495482ef13  data/corpus/v1/policy_a.md
+a62f6cfbc6aa7c49b503e7ff2c488bd336754b099f8cce100fa88e9394bf5eda  data/corpus/v1/policy_b.md
+e4ebf047da4528d0a2ae009bd9d9b3bb74dfffccfadee93f7e7c83d24dce5b6e  data/corpus/v1/policy_c.md

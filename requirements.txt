@@ -1,0 +1,8 @@
+# Pinned for reproducibility; hash embedding backend needs no torch/transformers.
+numpy>=1.24,<3
+scipy>=1.10
+PyYAML>=6.0
+faiss-cpu>=1.8.0
+rank-bm25>=0.2.2
+httpx>=0.25
+python-docx>=1.0.0
